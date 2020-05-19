@@ -1,1 +1,5 @@
-Currently it does not display well in browser size
+Currently only some browser sizes are displayed well...
+
+Click pink to collapse animation
+
+https://aocattleya.github.io/DLsite-Animation/
