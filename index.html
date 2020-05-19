@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" type="image/png" href="img/kurin.jpg" />
+    <link rel="icon" type="image/png" href="./img/kurin.png" />
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
     <title>DLsite</title>
@@ -16,7 +16,7 @@
         <div class="container">
           <div :class='[bom2 === false ? "" : "animated hinge"]' class="white-frame"></div>
           <div :class='[bom2 === false ? "" : "animated hinge"]' class="line"></div>
-          <div :class='[bom3 === false ? "" : "animated hinge"]' @click="collapse()" class="r18">R-18?</div>
+          <div :class='[bom3 === false ? "animated pulse infinite" : "animated hinge"]' @click="collapse()" class="r18">R-18</div>
           <div :class='[bom4 === false ? "" : "animated rotateOutDownLeft"]' class="d">D</div>
           <div :class='[bom5 === false ? "" : "animated rotateOutUpRight"]' class="l">L</div>
           <div :class='[bom6 === false ? "" : "animated flipOutY"]' class="s">s</div>

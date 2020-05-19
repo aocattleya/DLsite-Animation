@@ -9,8 +9,9 @@ body {
 
 .container-all {
   background-image: url(/img/back.png);
-  margin: 0;
-  padding: 0;
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
 }
 
 .container {
@@ -54,6 +55,8 @@ body {
   z-index: 2;
   border-radius: 10px;
   background-color: rgb(255, 106, 175);
+  cursor: pointer;
+  cursor: hand;
 }
 
 .d {
