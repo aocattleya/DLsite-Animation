@@ -10,13 +10,13 @@
     <title>DLsite</title>
   </head>
 
-  <body>
+  <body :class='[bom1 === false ? "" : "animated hinge"]'>
     <div id="app">
       <div :class='[bom1 === false ? "" : "animated hinge"]' class="container-all">
         <div class="container">
           <div :class='[bom2 === false ? "" : "animated hinge"]' class="white-frame"></div>
           <div :class='[bom2 === false ? "" : "animated hinge"]' class="line"></div>
-          <div :class='[bom3 === false ? "animated pulse infinite" : "animated hinge"]' @click="collapse()" class="r18">R-18</div>
+          <div :class='[bom3 === false ? "" : "animated hinge"]' @click="collapse()" class="r18">R-18</div>
           <div :class='[bom4 === false ? "" : "animated rotateOutDownLeft"]' class="d">D</div>
           <div :class='[bom5 === false ? "" : "animated rotateOutUpRight"]' class="l">L</div>
           <div :class='[bom6 === false ? "" : "animated flipOutY"]' class="s">s</div>
