@@ -8,12 +8,10 @@ body {
 }
 
 .container-all {
-  background-image: url(/img/back.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #464646;
   margin: auto;
   padding: 0;
   max-width: 100%;
@@ -63,7 +61,7 @@ body {
   font-size: 70px;
   bottom: 10px;
   right: 10px;
-  padding: 10px;
+  padding: 10px 10px 20px 10px;
   width: 170px;
   border-radius: 10px;
   background-color: rgb(255, 106, 175);
