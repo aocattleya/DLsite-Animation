@@ -10,22 +10,21 @@
     <title>DLsite</title>
   </head>
 
-  <body :class='[bom1 === false ? "" : "animated hinge"]'>
+  <body>
     <div id="app">
       <div :class='[bom1 === false ? "" : "animated hinge"]' class="container-all">
         <div class="container">
           <div :class='[bom2 === false ? "" : "animated hinge"]' class="white-frame"></div>
-          <div :class='[bom2 === false ? "" : "animated hinge"]' class="line"></div>
           <div :class='[bom3 === false ? "" : "animated hinge"]' @click="collapse()" class="r18">R-18
             <div class="r18__scroll--1"></div>
             <div class="r18__scroll--2"></div>
           </div>
-          <div :class='[bom4 === false ? "animated lightSpeedInLeft" : "animated flipOutY"]' class="d">D</div>
-          <div :class='[bom5 === false ? "animated lightSpeedInLeft" : "animated flipOutY"]' class="l">L</div>
-          <div :class='[bom6 === false ? "animated lightSpeedInLeft" : "animated flipOutY"]' class="s">s</div>
-          <div :class='[bom7 === false ? "animated lightSpeedInLeft" : "animated flipOutY"]' class="i">i</div>
-          <div :class='[bom8 === false ? "animated lightSpeedInLeft" : "animated flipOutY"]' class="t">t</div>
-          <div :class='[bom9 === false ? "animated lightSpeedInLeft" : "animated flipOutY"]' class="e">e</div>
+          <div :class='[bom4 === false ? "" : "animated rotateOutDownRight"]' class="d">D</div>
+          <div :class='[bom5 === false ? "" : "animated rotateOutDownRight"]' class="l">L</div>
+          <div :class='[bom6 === false ? "" : "animated flipOutY"]' class="s">s</div>
+          <div :class='[bom7 === false ? "" : "animated flipOutY"]' class="i">i</div>
+          <div :class='[bom8 === false ? "" : "animated flipOutY"]' class="t">t</div>
+          <div :class='[bom9 === false ? "" : "animated flipOutY"]' class="e">e</div>
           <div :class='[bom10 === false ? "" : "animated fadeOut"]' class="kurin"><img :src="imageSrc" class="kurin--img"></div>
         </div>
       </div>

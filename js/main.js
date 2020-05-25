@@ -21,13 +21,13 @@ const vm = new Vue({
         function () {
           this.bom1 = true;
         }.bind(this),
-        6500
+        6700
       );
       setTimeout(
         function () {
           this.bom2 = true;
         }.bind(this),
-        4500
+        4800
       );
       this.bom3 = true;
       setTimeout(
@@ -52,19 +52,19 @@ const vm = new Vue({
         function () {
           this.bom7 = true;
         }.bind(this),
-        3700
+        3500
       );
       setTimeout(
         function () {
           this.bom8 = true;
         }.bind(this),
-        3500
+        3700
       );
       setTimeout(
         function () {
           this.bom9 = true;
         }.bind(this),
-        3700
+        3900
       );
       setTimeout(
         function () {
