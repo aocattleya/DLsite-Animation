@@ -53,12 +53,36 @@ body {
   bottom: 10px;
   right: 10px;
   padding: 10px;
-  z-index: 2;
+  width: 170px;
   border-radius: 10px;
+  text-align:center;
   background-color: rgb(255, 106, 175);
   cursor: pointer;
   cursor: hand;
   z-index: 3;
+}
+
+.r18__scroll--1{
+  bottom:3px;
+  position: absolute;
+  width: 150px;
+  z-index: 4;
+  color: #283c5f;
+  border-bottom: 5px solid white;
+  margin-bottom: 5px;
+  right: 15px;
+}
+
+.r18__scroll--2{
+  bottom:7px;
+  position: absolute;
+  width: 20px;
+  z-index: 4;
+  color: #283c5f;
+  border-bottom: 5px solid white;
+  margin-bottom: 6px;
+  right: 15px;
+  transform: rotate(30deg);
 }
 
 .d {
