@@ -72,6 +72,12 @@ const vm = new Vue({
         }.bind(this),
         1000
       );
+      setTimeout(
+        function () {
+          window.location.href = 'https://www.dlsite.com/maniax/';
+        }.bind(this),
+        9000
+      );
     },
   },
 });
